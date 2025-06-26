@@ -64,7 +64,6 @@ Just open `index.html` in any modern browser (Chrome, Edge, Firefox).
 ├── index.html         # Main HTML UI
 ├── style.css          # Cube and UI styling
 ├── cube.js            # Cube logic (rotation, scramble, solve, undo)
-├── getCubeSvg.js      # Visual rendering of cube using HTML/CSS
 ```
 
 ---
