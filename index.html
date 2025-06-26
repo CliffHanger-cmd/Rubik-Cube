@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rubik's Cube Solver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Rubik’s Cube Solver</h1>
+  
+  <div class="controls">
+    <button onclick="rotate('U')"> Rotate U</button>
+    <button onclick="rotate('D')"> Rotate D</button>
+    <button onclick="rotate('L')"> Rotate L</button>
+    <button onclick="rotate('R')"> Rotate R</button>
+    <button onclick="rotate('F')"> Rotate F</button>
+    <button onclick="rotate('B')"> Rotate B</button>
+    <br>
+    <button onclick="cube.reverseStep()"> Undo Last Move</button>
+    <button onclick="scramble()"> Scramble</button>
+    <button onclick="solve()"> Solve</button>
+    <button onclick="reset()"> Reset</button>
+  </div>
+
+  <div id="moveHistory"></div>
+  <div id="cubeDisplay"></div>
+
+  <script src="cube.js"></script>
+  <script>
+    const cube = new Cube();
+    cube.display();
+
+    function rotate(face) {
+      cube.rotate(face);
+    }
+
+    function scramble() {
+      cube.scramble();
+    }
+
+    function solve() {
+      cube.solve();
+    }
+
+    function reset() {
+      cube.reset();
+    }
+  </script>
+</body>
+</html>
