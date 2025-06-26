@@ -21,9 +21,9 @@ It includes visual cube rendering, manual face rotations, scrambling, solving lo
 
 
 
-```
+
       [U]
-```
+
 
 \[L] \[F] \[R] \[B]
 \[D]
