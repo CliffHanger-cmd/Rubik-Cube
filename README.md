@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # 🧊 Rubik’s Cube Solver 
 
 A simple, interactive **Rubik's Cube Solver** built with **HTML, CSS, and JavaScript**.  
@@ -19,7 +19,7 @@ It includes visual cube rendering, manual face rotations, scrambling, solving lo
 
 ## 🖼️ Cube Visualization
 
-```
+
 
 ```
       [U]
@@ -28,7 +28,7 @@ It includes visual cube rendering, manual face rotations, scrambling, solving lo
 \[L] \[F] \[R] \[B]
 \[D]
 
-````
+
 
 Each face is displayed as a 3×3 grid with color-coded squares:
 - White = `w`
