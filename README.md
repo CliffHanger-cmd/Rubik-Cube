@@ -89,7 +89,9 @@ Just open `index.html` in any modern browser (Chrome, Edge, Firefox).
 
 ## 📸 Screenshots
 
-![UI Screenshot](./screenshots/cube_ui.png)
+
+![UI Screenshot](https://github.com/user-attachments/assets/9eb43941-20ba-488e-9260-5b02516d3415)
+
 
 ---
 
