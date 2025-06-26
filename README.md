@@ -114,18 +114,4 @@ Just open `index.html` in any modern browser (Chrome, Edge, Firefox).
 
 ---
 
-## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-Let me know if:
-- You want me to generate a real `screenshots/cube_ui.png`
-- You need a `LICENSE` file
-- Or you'd like this as a `.zip` to submit instantly ✅
-
-Would you also like me to prep a 5-minute **presentation pitch/script** for demo?
-```
